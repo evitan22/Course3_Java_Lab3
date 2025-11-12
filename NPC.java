@@ -2,10 +2,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
 
-/**
- * Клас NPC (неігровий персонаж)
- * Містить поля, що описують базові характеристики персонажа
- */
 class NPC {
     String name;      // Ім’я персонажа
     int level;        // Рівень
@@ -22,7 +18,7 @@ class NPC {
         this.role = role;
     }
 
-    // Метод для зручного виведення інформації про NPC
+    // Метод для виведення інформації про NPC
     @Override
     public String toString() {
         return String.format("NPC{name='%s', level=%d, health=%d, damage=%d, role='%s'}", name, level, health, damage, role);
