@@ -8,11 +8,11 @@ public class NPCSort {
         System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
         // Створюється масив NPC
         NPC[] npcs = {
-            new NPC("Gandalf", 50, 100, 70, "Mage"),
-            new NPC("Boromir", 40, 120, 60, "Warrior"),
-            new NPC("Frodo", 20, 80, 25, "Adventurer"),
-            new NPC("Aragorn", 45, 110, 65, "Ranger"),
-            new NPC("Legolas", 42, 90, 80, "Archer")
+            new NPC("Alariel", 50, 100, 70, "Mage"),
+            new NPC("Torgrim", 40, 120, 60, "Warrior"),
+            new NPC("Sylas Wain", 20, 80, 25, "Adventurer"),
+            new NPC("Orian", 45, 110, 65, "Ranger"),
+            new NPC("Kaelen", 42, 90, 80, "Archer")
         };
 
         System.out.println("Initial NPC list: ");
